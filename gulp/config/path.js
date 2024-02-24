@@ -20,7 +20,7 @@ export const path = {
 		images: `${srcFolder}/img/**/*.{jpg,jpeg,png,gif,webp}`,
 		js: `${srcFolder}/js/app.js`,
 		scss: `${srcFolder}/scss/style.scss`,
-		html: `${srcFolder}/*.html`, // pug
+		html: `${srcFolder}/*.pug`, // html
 		files: `${srcFolder}/files/**/*.*`,
 		svgicons: `${srcFolder}/svgicons/*.svg`,
 	},
@@ -28,12 +28,12 @@ export const path = {
 		js: `${srcFolder}/js/**/*.js`,
 		images: `${srcFolder}/img/**/*.{jpg,jpeg,png,svg,gif,ico,webp}`,
 		scss: `${srcFolder}/scss/**/*.scss`,
-		html: `${srcFolder}/**/*.html`, // pug
+		html: `${srcFolder}/**/*.pug`, // html
 		files: `${srcFolder}/files/**/*.*`
 	},
 	clean: buildFolder,
 	buildFolder: buildFolder,
 	srcFolder: srcFolder,
 	rootFolder: rootFolder,
-	ftp: ``
+	// ftp: ``
 };
